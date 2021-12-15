@@ -15,7 +15,7 @@ public class U {
     }
 
     public static int toInt(String value) {
-        return Integer.parseInt(value);
+        return Integer.parseInt(value.trim());
     }
 
     public static void println(Object value) {
